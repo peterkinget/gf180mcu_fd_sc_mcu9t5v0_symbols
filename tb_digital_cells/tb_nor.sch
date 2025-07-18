@@ -125,3 +125,4 @@ C {launcher.sym} -377.5 395 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/tb_nor.raw tran"
 }
+C {title.sym} -687.5 765 0 0 {name=l2 author="Peter Kinget"}

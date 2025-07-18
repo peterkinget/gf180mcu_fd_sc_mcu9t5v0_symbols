@@ -7,8 +7,8 @@ E {}
 B 2 -197.5 435 1133.75 992.5 {flags=graph
 y1=0
 y2=4
-ypos1=0
-ypos2=4
+ypos1=-0.8
+ypos2=3.2
 divy=5
 subdivy=1
 unity=1
@@ -153,3 +153,4 @@ C {lab_wire.sym} 806.25 307.5 0 0 {name=p5 sig_type=std_logic lab=two_Q}
 C {libs/gf180mcu_fd_sc_mcu9t5v0_symbols/dffq_1.sym} 357.5 56.25 2 1 {name=x3 VGND=VSSd VNB=VDDd VPB=VSSd VPWR=VDDd prefix=gf180mcu_fd_sc_mcu9t5v0__ }
 C {libs/gf180mcu_fd_sc_mcu9t5v0_symbols/inv_1.sym} 352.5 -13.75 0 1 {name=x7 VGND=VSSd VNB=VDDd VPB=VSSd VPWR=VDDd prefix=gf180mcu_fd_sc_mcu9t5v0__ }
 C {lab_wire.sym} 485 66.25 0 0 {name=p6 sig_type=std_logic lab=one_Q}
+C {title.sym} -650 1051.25 0 0 {name=l2 author="Peter Kinget"}

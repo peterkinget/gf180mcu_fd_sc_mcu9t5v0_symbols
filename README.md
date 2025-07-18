@@ -3,6 +3,9 @@
 - Peter Kinget
 - July 17 2025
 
+---
+> **Work in Progress - Use with Caution**
+---
 
 ## Symbol Creation
 
@@ -35,7 +38,10 @@ replacements = [
 - The schematics have the necessary `.include` statements to load the spice netlists for the digital standard cells. 
 - The test benches are run at 3.3V, although the cells have a nominal supply of 5V. 
 
-## Work in progress:
+## Links
+[Official PDK Documentation](https://gf180mcu-pdk.readthedocs.io/en/latest/digital/Digital.html)
+
+## Notes for future use:
 
 > Table provided by ChatGPT -- Use with caution!!
 
