@@ -1,0 +1,50 @@
+v {xschem version=3.4.7 file_version=1.2}
+G {}
+K {type=primitive
+format="@name @pinlist @prefix1@prefix2\\\\__@symname"
+template="name=x1 prefix1=gf180mcu_fd_sc_mcu prefix2=9t5v0"
+verilogprefix=gf180mcu_fd_sc_mcu9t5v0
+highlight=true
+}
+V {}
+S {type=primitive
+}
+E {}
+L 4 -15 -95 25 -95 {}
+L 4 -15 -65 25 -65 {}
+L 4 -15 -35 25 -35 {}
+L 4 -15 -10 25 -10 {}
+L 4 50 -220 50 -160 {}
+L 4 50 -160 85 -160 {}
+L 4 50 -220 85 -220 {}
+L 4 -15 -210 50 -210 {}
+L 4 -15 -170 50 -170 {}
+L 4 125 -190 205 -190 {}
+B 5 -17.5 -212.5 -12.5 -207.5 {name=A1
+dir=in}
+B 5 -17.5 -172.5 -12.5 -167.5 {name=A2
+dir=in}
+B 5 202.5 -192.5 207.5 -187.5 {name=ZN
+dir=out}
+B 5 -17.5 -97.5 -12.5 -92.5 {name=VDD
+dir=inout}
+B 5 -17.5 -67.5 -12.5 -62.5 {name=VNW
+dir=inout}
+B 5 -17.5 -37.5 -12.5 -32.5 {name=VPW
+dir=inout}
+B 5 -17.5 -12.5 -12.5 -7.5 {name=VSS
+dir=inout}
+A 4 85 -190 30 270 180 {}
+A 4 120 -190 5 0 360 {}
+P 4 6 0 -210 0 -260 190 -260 190 -125 0 -125 0 -210 {}
+P 4 4 0 -125 0 0 190 0 190 -125 {}
+T {A1} 5 -235 0 0 0.4 0.4 {}
+T {A2} 5 -195 0 0 0.4 0.4 {}
+T {ZN} 155 -220 0 0 0.4 0.4 {}
+T {VDD} 5 -120 0 0 0.4 0.4 {}
+T {VNW} 5 -90 0 0 0.4 0.4 {}
+T {VPW} 55 -35 2 0 0.4 0.4 {}
+T {VSS} 50 -10 2 0 0.4 0.4 {}
+T {@name} 140 -290 0 0 0.4 0.4 {}
+T {@symname} 50 -155 0 0 0.4 0.4 {}
+T {@prefix2} 45 -250 0 0 0.4 0.4 {}
