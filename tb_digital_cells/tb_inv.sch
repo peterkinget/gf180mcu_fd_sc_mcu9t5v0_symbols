@@ -156,3 +156,4 @@ C {libs/gf180mcu_fd_sc_mcu9t5v0_symbols/inv_20.sym} 665 275 0 0 {name=x11 VGND=V
 C {libs/gf180mcu_fd_sc_mcu9t5v0_symbols/inv_20.sym} 785 275 0 0 {name=x12 VGND=VSSd VNB=VDDd VPB=VSSd VPWR=VDDd prefix=gf180mcu_fd_sc_mcu9t5v0__ }
 C {libs/gf180mcu_fd_sc_mcu9t5v0_symbols/inv_20.sym} 915 275 0 0 {name=x13 VGND=VSSd VNB=VDDd VPB=VSSd VPWR=VDDd prefix=gf180mcu_fd_sc_mcu9t5v0__ }
 C {lab_wire.sym} 540 210 0 0 {name=p16 sig_type=std_logic lab=RO_out}
+C {title.sym} -727.5 805 0 0 {name=l2 author="Peter Kinget"}
